@@ -3,12 +3,6 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "features": {
-    "ghcr.io/devcontainers/features/node:1": {
-      "version": "lts"
-    }
-  },
-  "postCreateCommand": "npm install -g @anthropic-ai/claude-code",  
   "forwardPorts": [
     8501,
     5000
